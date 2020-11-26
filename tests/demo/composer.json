@@ -11,7 +11,13 @@
             "Demo\\Tests\\Component2\\": "component2/tests"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/SportRIZER/phpcs-psr4-sniff"
+        }
+    ],
     "require-dev": {
-        "suin/phpcs-psr4-sniff": "^1.0"
+        "suin/phpcs-psr4-sniff": "^2.2.1"
     }
 }
